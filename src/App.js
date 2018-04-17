@@ -21,16 +21,16 @@ import { CategoryList, CategoryEdit, CategoryIcon } from './categories';
 import { ReviewList, ReviewEdit, ReviewIcon } from './reviews';
 
 import restClient from './restClient';
-import fakeRestServer from './restServer';
+// import fakeRestServer from './restServer';
 
 class App extends Component {
-    componentWillMount() {
-        this.restoreFetch = fakeRestServer();
-    }
+    // componentWillMount() {
+    //     this.restoreFetch = fakeRestServer();
+    // }
 
-    componentWillUnmount() {
-        this.restoreFetch();
-    }
+    // componentWillUnmount() {
+    //     this.restoreFetch();
+    // }
 
     render() {
         return (
